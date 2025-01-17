@@ -1,0 +1,47 @@
+.banner_lb{ width:1000px; margin:0 auto}
+div.mob_lb {
+    width:100%;
+    margin: auto; 
+    position: relative;
+}
+div.mob_lb img {
+    width:100%;
+    height:360px;
+    vertical-align: bottom;
+}
+.dote {
+    position: absolute;
+    bottom: 0; left:0; right:0; margin:auto;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dote>span {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin: 2px;
+}
+span[class^="jian"]{
+    position: absolute;
+    
+    margin-top: -50%;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 80%;
+    margin: 2px;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    line-height: 50px;
+    color: white; font-size:24px;top:0; bottom:0; margin:auto;
+}
+.jianleft{
+    left: 0;
+}
+.jianright{
+    right: 0;
+}
+
