@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta name="format-detection" content="telephone=no" />
+        <title>注册-智能生活</title>
+        <style type="text/css">
+        <link rel="icon" href="images./icon.png">
+
+            .t2{ width:300px; height:25px; line-height:25px;}
+            .t3{ width:95%; height:200px; line-height:25px;}
+            table td{ border:none}
+            .p2{ width:120px; height:30px; line-height:30px; cursor:pointer; background:#242221; color:#FFFFFF; border:1px solid #CCCCCC;}
+
+        </style>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script src="js/time.js"></script>
+
+    </head>
+
+    <body>
+
+    <div class="topMain">
+    <div class="topLeft">
+        <a href="index.html" title="智能交通"><img src="images/logo01.png" alt="智能交通">
+            <!-- 智能交通 -->
+        </a>
+    </div>
+    <div class="topRight">
+        <div class="topRight_t">
+            <div class="welcome">欢迎你的访问！</div>
+            <div class="time">
+                <p id="datetime"></p>
+               </div>
+            <ul class="login_r">
+                <li  class="hover"><a href="reg.html">注册</a></li>
+                <li>|</li>
+                <li><a href="login.html">登录</a></li>
+            </ul>
+        </div>
+        <ul class="topRight_b">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="aqcs.html" target="_self">智能家居</a></li>	
+                <li><a href="znjt.html" target="_self">智能交通</a></li>
+                <li><a href="vod.html" target="_self">智能健康</a></li>
+                <li><a href="login.html" target="_self">关于我们</a></li>   
+        </ul>
+    </div>
+        </div>
+
+        <div id="wrapper">
+            <div class="banner">
+            <img src="images/lb1.jpg" alt="智能生活" class="box2">
+            </div>
+            <div id="cont_wp">
+                <div id="map">
+                    <div class="browse">现在位置： <a title="返回首页" href="index.html">首页</a>  &gt;注册 &gt;</div>
+                </div>
+                <div class="zhuce">
+                    <form action="#" method="post" name="zhuce">
+                        <table width="100%" height="195" border="0" align="center">
+                            <tr>
+                                <td width="371" height="42"><div align="right">用户名</div></td>
+                                <td width="577"><input name="username" type="text" class="bda" /></td>
+                            </tr>
+                            <tr>
+                                <td height="47"><div align="right">密码</div></td>
+                                <td><input name="password" type="password" class="bda" /></td>
+                            </tr>
+                            <tr>
+                                <td height="49"><div align="right">确认密码</div></td>
+                                <td><input name="password2" type="password" class="bda" /></td>
+                            </tr>
+                            <tr>
+                                <td height="49"><div align="right">性别</div></td>
+                                <td><input type="radio" name="sex" value="男"><label>男</label>
+                                <input type="radio" name="sex" value="女"><label>女</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="49"><div align="right">出生日期</div></td>
+                                <td>
+                                    <input type="date" name="rq" class="bda">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="49"><div align="right">兴趣爱好</div></td>
+                                <td>
+                                    <input type="checkbox" name="xq"><label>游戏</label>
+                                    <input type="checkbox" name="xq"><label>看电影</label>
+                                    <input type="checkbox" name="xq"><label>听歌</label>
+                                    <input type="checkbox" name="xq"><label>看书</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="49"><div align="right">个人邮箱</div></td>
+                                <td>
+                                    <input type="email" name="email" class="bda">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="49"><div align="right">个人简介</div></td>
+                                <td>
+                                    <textarea name="grjs" class="grjs"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td><input type="button" value="注册" onClick="reg()" class="btn" />
+                                    <input type="reset" value="重置" class="reset">
+                            </tr>
+                        </table>
+                    </form>
+                    <script src="js/yz.js"></script>
+                </div>
+            </div>
+            <div style="clear:both"></div>
+        </div>
+<div id="footer">
+            <p>Copyright &#169; 智能交通</p>
+        </div>
+        <div class="foot">
+            <div class="ftfx">
+                <div class="fta">
+                    <p class="a1"><a href="#">投稿</a><a href="#">投诉</a><a href="#">留言</a></p>
+                    <p>联系我们：12345678@163.com</p>
+                    <p>联系地址：智能生活总部</p>
+                </div>
+                <div class="ftb">
+                    <span>快捷导航</span>
+                    <a href="#">首页</a><a href="#">智能家居</a><a href="#">智能交通</a><a href="#">智能健康</a><a href="#">关于我们</a>
+                </div>
+                <div class="ftc">
+                    <div class="c1">
+                        联系我们
+                    </div>
+                    <div class="c2">
+                        <img src="images/ma.png" alt="二维码">
+                    </div>
+                </div>
+            </div>
+            <p align="center">
+                @ CopyRight智能生活. Inc.All Rights 
+            </p>
+    </div>
+</body>
+</html>
